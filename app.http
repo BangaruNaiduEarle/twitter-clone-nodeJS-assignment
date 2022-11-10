@@ -38,4 +38,37 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZ
 GET http://localhost:3000/tweets/1/
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjY3Nzg5NDUwfQ.mU7LYy6w31aDz_F7ysEzOrVfXD4-ehoo9rKYM9dk1bY
 
+###
+GET http://localhost:3000/tweets/1/likes
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjY3Nzg5NDUwfQ.mU7LYy6w31aDz_F7ysEzOrVfXD4-ehoo9rKYM9dk1bY
+
+###
+
+GET http://localhost:3000/tweets/1/replies
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjY3Nzg5NDUwfQ.mU7LYy6w31aDz_F7ysEzOrVfXD4-ehoo9rKYM9dk1bY
+
+###
+
+
+
+GET http://localhost:3000/user/tweets/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjY3Nzg5NDUwfQ.mU7LYy6w31aDz_F7ysEzOrVfXD4-ehoo9rKYM9dk1bY
+
+
+###
+
+POST http://localhost:3000/user/tweets/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjY3Nzg5NDUwfQ.mU7LYy6w31aDz_F7ysEzOrVfXD4-ehoo9rKYM9dk1bY
+Content-Type: application/json
+
+{
+   "tweet": "The Mornings vivek reddy..."
+}
+
+###
+
+DELETE http://localhost:3000/tweets/14/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjY3Nzg5NDUwfQ.mU7LYy6w31aDz_F7ysEzOrVfXD4-ehoo9rKYM9dk1bY
+
+###
 
